@@ -2,6 +2,7 @@ import matplotlib as plt
 import pandas as pd
 import numpy as py
 import folium
+import osmnx as ox
 
 capOneLocFile = "Capital_One_Locations.csv"
 cOneLocations = pd.read_csv(capOneLocFile)
