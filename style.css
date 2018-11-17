@@ -1,8 +1,8 @@
 body 
 {
-	background-color: #000000;
-	color:#212121;
-	font-family: Comic Sans, Comic Sans MS, cursive;
+	background-color: #5896b3;
+	color:#5896b3;
+	font-family: Courier 'Courier New', Courier, monospace, Courier New, cursive;
 }
 	
 	
@@ -42,14 +42,20 @@ hr {
 margin: -50px auto 10 px;
 }
 
+.imgframe
+    { background:#11a331;
+    padding:12px;
+	border:1px solid #999; 
+}
+
 h1
 {
-	color: #ff0000;
+	color: #053a10;
 }
 
 h3
 {
-	color: #ffffff;
+	color: #053a10;
 }
 
 li
