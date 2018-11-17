@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_48d5be65ab8841828d239c5e5b370682 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_48d5be65ab8841828d239c5e5b370682" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_48d5be65ab8841828d239c5e5b370682 = L.map(
+        'map_48d5be65ab8841828d239c5e5b370682', {
+        center: [40.76831, -73.964915],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_3f522992f113454e8e6db43f7c464915 = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_48d5be65ab8841828d239c5e5b370682);
+    
+            var circle_marker_b8f7b8d7e4d747cf9642acb60548dc9f = L.circleMarker(
+                [40.67974, -73.99732],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_42fefa4b5c2e493687eef45047aa8efd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4841b83552ef44e9a09307eb845be920 = $('<div id="html_4841b83552ef44e9a09307eb845be920" style="width: 100.0%; height: 100.0%;">420 Court Street Brooklyn, NY 11231</div>')[0];
+                popup_42fefa4b5c2e493687eef45047aa8efd.setContent(html_4841b83552ef44e9a09307eb845be920);
+            
+
+            circle_marker_b8f7b8d7e4d747cf9642acb60548dc9f.bindPopup(popup_42fefa4b5c2e493687eef45047aa8efd)
+            ;
+
+            
+        
+    
+            var circle_marker_6d4b5ed2c5614a0f9bf09e8599ebad70 = L.circleMarker(
+                [40.71443, -74.00646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_914949006b25468ebc9dda7f6fce2ba9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_678f5c331d8e4276b05d311e6e2ca5d8 = $('<div id="html_678f5c331d8e4276b05d311e6e2ca5d8" style="width: 100.0%; height: 100.0%;">277 Broadway New York, NY 10007</div>')[0];
+                popup_914949006b25468ebc9dda7f6fce2ba9.setContent(html_678f5c331d8e4276b05d311e6e2ca5d8);
+            
+
+            circle_marker_6d4b5ed2c5614a0f9bf09e8599ebad70.bindPopup(popup_914949006b25468ebc9dda7f6fce2ba9)
+            ;
+
+            
+        
+    
+            var circle_marker_add88533b570426cb3f6831fb342b519 = L.circleMarker(
+                [40.74165, -74.00074000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_08bbe17bafed47a28d31dc0ff0cd95f9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d5b5c39ab7fb40e5b7b00e9fd232ea77 = $('<div id="html_d5b5c39ab7fb40e5b7b00e9fd232ea77" style="width: 100.0%; height: 100.0%;">144 8th Ave. New York, NY 10011</div>')[0];
+                popup_08bbe17bafed47a28d31dc0ff0cd95f9.setContent(html_d5b5c39ab7fb40e5b7b00e9fd232ea77);
+            
+
+            circle_marker_add88533b570426cb3f6831fb342b519.bindPopup(popup_08bbe17bafed47a28d31dc0ff0cd95f9)
+            ;
+
+            
+        
+    
+            var circle_marker_7c10718566de4fea856e9d6d66de2049 = L.circleMarker(
+                [40.78074, -73.80301999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_6908465e640b4b158e77966ae1e59cf8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1c4fa1ee004f4396acb72d0abb4c2896 = $('<div id="html_1c4fa1ee004f4396acb72d0abb4c2896" style="width: 100.0%; height: 100.0%;">20-02 Francis Lewis Blvd Whitestone, NY 11357</div>')[0];
+                popup_6908465e640b4b158e77966ae1e59cf8.setContent(html_1c4fa1ee004f4396acb72d0abb4c2896);
+            
+
+            circle_marker_7c10718566de4fea856e9d6d66de2049.bindPopup(popup_6908465e640b4b158e77966ae1e59cf8)
+            ;
+
+            
+        
+    
+            var circle_marker_8619184376894274a4f51796c186f3b4 = L.circleMarker(
+                [40.84957, -73.93486],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_b83138e78c53459db01776c125bd6bd5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8f51d278764a424f85dde16a502baadc = $('<div id="html_8f51d278764a424f85dde16a502baadc" style="width: 100.0%; height: 100.0%;">620 West 181 Street New York, NY 10033</div>')[0];
+                popup_b83138e78c53459db01776c125bd6bd5.setContent(html_8f51d278764a424f85dde16a502baadc);
+            
+
+            circle_marker_8619184376894274a4f51796c186f3b4.bindPopup(popup_b83138e78c53459db01776c125bd6bd5)
+            ;
+
+            
+        
+    
+            var circle_marker_81d24a4935764f8daf742a59f5247549 = L.circleMarker(
+                [40.71765, -73.81703],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_949d90fb53a0436fb973993ff7f693e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e2cde93ca2eb477eac668aaa28bf3151 = $('<div id="html_e2cde93ca2eb477eac668aaa28bf3151" style="width: 100.0%; height: 100.0%;">75-21 Main St Kew Gardens Hills, NY 11367</div>')[0];
+                popup_949d90fb53a0436fb973993ff7f693e5.setContent(html_e2cde93ca2eb477eac668aaa28bf3151);
+            
+
+            circle_marker_81d24a4935764f8daf742a59f5247549.bindPopup(popup_949d90fb53a0436fb973993ff7f693e5)
+            ;
+
+            
+        
+    
+            var circle_marker_acca7244e5e24adb8a7b7d6e3d697b46 = L.circleMarker(
+                [40.75178, -73.88469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_662dcb66c6c24cf69ac595fe3a2084d9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0bbc09f6611d4aa3804c6247fc0f0a1c = $('<div id="html_0bbc09f6611d4aa3804c6247fc0f0a1c" style="width: 100.0%; height: 100.0%;">37-02 82nd Street Jackson Heights, NY 11372</div>')[0];
+                popup_662dcb66c6c24cf69ac595fe3a2084d9.setContent(html_0bbc09f6611d4aa3804c6247fc0f0a1c);
+            
+
+            circle_marker_acca7244e5e24adb8a7b7d6e3d697b46.bindPopup(popup_662dcb66c6c24cf69ac595fe3a2084d9)
+            ;
+
+            
+        
+    
+            var circle_marker_5deb621a442842a2a676c9880c650ab4 = L.circleMarker(
+                [40.64545, -73.90217],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_d66b93d85cbc4e30bb298c437f1dfd57 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b1b067221b24e35b0bfecf76fc8df38 = $('<div id="html_7b1b067221b24e35b0bfecf76fc8df38" style="width: 100.0%; height: 100.0%;">1425 Rockaway Pkwy Brooklyn, NY 11236</div>')[0];
+                popup_d66b93d85cbc4e30bb298c437f1dfd57.setContent(html_7b1b067221b24e35b0bfecf76fc8df38);
+            
+
+            circle_marker_5deb621a442842a2a676c9880c650ab4.bindPopup(popup_d66b93d85cbc4e30bb298c437f1dfd57)
+            ;
+
+            
+        
+    
+            var circle_marker_81c57a47aab64f30aaf253dd4a162cc9 = L.circleMarker(
+                [40.78453, -73.94729],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_979c61e6ff5b4b3a99fa776735c09933 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ab9bcb23dd624d058539cc3244b0f571 = $('<div id="html_ab9bcb23dd624d058539cc3244b0f571" style="width: 100.0%; height: 100.0%;">1865 2nd Avenue  New York, NY 10029</div>')[0];
+                popup_979c61e6ff5b4b3a99fa776735c09933.setContent(html_ab9bcb23dd624d058539cc3244b0f571);
+            
+
+            circle_marker_81c57a47aab64f30aaf253dd4a162cc9.bindPopup(popup_979c61e6ff5b4b3a99fa776735c09933)
+            ;
+
+            
+        
+    
+            var circle_marker_ad3a68a0a1454a0c9fda12360594d479 = L.circleMarker(
+                [40.77949, -73.95555999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "#3388ff",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+            
+    
+            var popup_3e47cb536d3e4469901b69d102f7c749 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ee4f1e61676463986444300da9c0ace = $('<div id="html_1ee4f1e61676463986444300da9c0ace" style="width: 100.0%; height: 100.0%;">249 East 86th Street New York, NY 10028</div>')[0];
+                popup_3e47cb536d3e4469901b69d102f7c749.setContent(html_1ee4f1e61676463986444300da9c0ace);
+            
+
+            circle_marker_ad3a68a0a1454a0c9fda12360594d479.bindPopup(popup_3e47cb536d3e4469901b69d102f7c749)
+            ;
+
+            
+        
+</script>
