@@ -1,11 +1,54 @@
-Bank Num,Latitude,Longitude,Address
-1,40.67974,-73.99732,"420 Court Street Brooklyn, NY 11231"
-2,40.71443,-74.00646,"277 Broadway New York, NY 10007"
-3,40.74165,-74.00074,"144 8th Ave. New York, NY 10011"
-4,40.78074,-73.80302,"20-02 Francis Lewis Blvd Whitestone, NY 11357"
-5,40.84957,-73.93486,"620 West 181 Street New York, NY 10033"
-6,40.71765,-73.81703,"75-21 Main St Kew Gardens Hills, NY 11367"
-7,40.75178,-73.88469,"37-02 82nd Street Jackson Heights, NY 11372"
-8,40.64545,-73.90217,"1425 Rockaway Pkwy Brooklyn, NY 11236"
-9,40.78453,-73.94729,"1865 2nd Avenue  New York, NY 10029"
-10,40.77949,-73.95556,"249 East 86th Street New York, NY 10028"
+Bank Num,Latitude,Longitude,Address,Bank District
+1,40.67974,-73.99732,"420 Court Street Brooklyn, NY 11231",101
+2,40.71443,-74.00646,"277 Broadway New York, NY 10007",101
+3,40.74165,-74.00074,"144 8th Ave. New York, NY 10011",101
+4,40.78074,-73.80302,"20-02 Francis Lewis Blvd Whitestone, NY 11357",101
+5,40.84957,-73.93486,"620 West 181 Street New York, NY 10033",101
+6,40.71765,-73.81703,"75-21 Main St Kew Gardens Hills, NY 11367",101
+7,40.75178,-73.88469,"37-02 82nd Street Jackson Heights, NY 11372",101
+8,40.64545,-73.90217,"1425 Rockaway Pkwy Brooklyn, NY 11236",103
+9,40.78453,-73.94729,"1865 2nd Avenue  New York, NY 10029",103
+10,40.77949,-73.95556,"249 East 86th Street New York, NY 10028",103
+11,,,"90 West Broadway, New York, NY",304
+12,,,"176 Broadway, New York, NY",304
+13,,,"116 Bowery, New York, NY",304
+14,,,"154 Bleecker Street, New York, NY",304
+15,,,"159 West 4th Street, New York, NY",203
+16,,,"21 University Place, New York, NY",205
+17,,,"273 East 3rd Street, New York, NY",503
+18,,,"159 2nd Avenue, New York, NY",409
+19,,,"123 Third Avenue, New York, NY",407
+20,,,"31 East 17th Street, New York, NY",407
+21,,,"120 W. 23rd Street, New York, NY",407
+22,,,"401 West 23rd Street, New York, NY",407
+23,,,"470 Park Avenue South, New York, NY",407
+24,,,"245 East 34th Street, New York, NY",407
+25,,,"One Penn Plaza, New York, NY",407
+26,,,"404 Fifth Avenue, New York, NY",407
+27,,,"1001 Avenue Of The Americas, New York, NY",407
+28,,,"1407 Broadway, New York, NY",407
+29,,,"220 East 42nd Street, New York, NY",407
+30,,,"109 East 42nd Street, New York, NY",407
+31,,,"1166 Avenue Of The Americas, New York, NY",407
+32,,,"750 Third Avenue, New York, NY",407
+33,,,"320 Park Avenue, New York, NY",407
+34,,,"845 Third Avenue, New York, NY",407
+35,,,"1745 Broadway, New York, NY",407
+36,,,"840 Ninth Ave, New York, NY",
+37,,,"57 West 57th Street, New York, NY",
+38,,,"991 Third Avenue, New York, NY",
+39,,,"502 Park Avenue, New York, NY",
+40,,,"1295 Second Ave, New York, NY",
+41,,,"1180 Third Avenue, New York, NY",
+42,,,"175 West 72nd Street, New York, NY",
+43,,,"1345 Third Avenue, New York, NY",
+44,,,"1512 Second Avenue, New York, NY",
+45,,,"249 East 86th Street, New York, NY",
+46,,,"2379 Broadway, New York, NY",
+47,,,"333 East 102nd Street (Aka 1999 First Avenue), New York, NY",
+48,,,"37-02 82nd St, Jackson Heights, NY 11372",
+49,,,"40-20 Queens Blvd, Sunnyside, NY 11104",
+50,,,"146-21 Jamaica Ave, Jamaica, NY 11435",
+,,,"95-25 Queens Blvd, Rego Park, NY 11374",
+,,,"216-19 Jamaica Ave, Queens Village, NY 11428",
+,,,"114-19 Liberty Ave, South Richmond Hill, NY 11419",
