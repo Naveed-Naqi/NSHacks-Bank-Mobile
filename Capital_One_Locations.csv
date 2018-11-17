@@ -1,11 +1,66 @@
 Bank Num,Latitude,Longitude,Address,Bank District
-1,40.67974,-73.99732,"420 Court Street Brooklyn, NY 11231",101
-2,40.71443,-74.00646,"277 Broadway New York, NY 10007",101
-3,40.74165,-74.00074,"144 8th Ave. New York, NY 10011",101
-4,40.78074,-73.80302,"20-02 Francis Lewis Blvd Whitestone, NY 11357",101
-5,40.84957,-73.93486,"620 West 181 Street New York, NY 10033",101
-6,40.71765,-73.81703,"75-21 Main St Kew Gardens Hills, NY 11367",101
-7,40.75178,-73.88469,"37-02 82nd Street Jackson Heights, NY 11372",101
-8,40.64545,-73.90217,"1425 Rockaway Pkwy Brooklyn, NY 11236",103
-9,40.78453,-73.94729,"1865 2nd Avenue  New York, NY 10029",103
-10,40.77949,-73.95556,"249 East 86th Street New York, NY 10028",103
+1,40.67974,-73.99732,"420 Court Street Brooklyn, NY 11231",306
+2,40.71443,-74.00646,"277 Broadway New York, NY 10007",102
+3,40.74165,-74.00074,"144 8th Ave. New York, NY 10011",104
+4,40.78074,-73.80302,"20-02 Francis Lewis Blvd Whitestone, NY 11357",407
+5,40.84957,-73.93486,"620 West 181 Street New York, NY 10033",112
+6,40.71765,-73.81703,"75-21 Main St Kew Gardens Hills, NY 11367",408
+7,40.75178,-73.88469,"37-02 82nd Street Jackson Heights, NY 11372",304
+8,40.64545,-73.90217,"1425 Rockaway Pkwy Brooklyn, NY 11236",318
+9,40.78453,-73.94729,"1865 2nd Avenue  New York, NY 10029",111
+10,40.77949,-73.95556,"249 East 86th Street New York, NY 10028",108
+11,40.7155,-74.00958,"90 West Broadway, New York, NY",102
+12,40.67735,-73.41773,"176 Broadway, New York, NY",102
+13,40.71839,-73.9952,"116 Bowery, New York, NY",102
+14,40.7281,-73.99965,"154 Bleecker Street, New York, NY",104
+15,42.38089,-76.87526,"159 West 4th Street, New York, NY",104
+16,40.73168,-73.99406,"21 University Place, New York, NY",105
+17,42.13765,-77.04452,"273 East 3rd Street, New York, NY",100
+18,40.72981,-73.9872,"159 2nd Avenue, New York, NY",105
+19,40.73297,-73.98697,"123 Third Avenue, New York, NY",105
+20,40.73717,-73.98961,"31 East 17th Street, New York, NY",105
+21,40.74306,-73.99377,"120 W. 23rd Street, New York, NY",104
+22,40.74678,-74.00142,"401 West 23rd Street, New York, NY",104
+23,40.74566,-73.9826,"470 Park Avenue South, New York, NY",105
+24,40.74508,-73.97613,"245 East 34th Street, New York, NY",100
+25,40.75099,-73.99061,"One Penn Plaza, New York, NY",101
+26,40.75033,-73.98371,"404 Fifth Avenue, New York, NY",105
+27,42.05434,-76.82011,"1407 Broadway, New York, NY",105
+28,40.74977,-73.97319,"220 East 42nd Street, New York, NY",100
+29,42.13321,-77.0362,"320 Park Avenue, New York, NY",100
+30,40.75662,-73.96976,"845 Third Avenue, New York, NY",100
+31,42.05291,-76.82083,"1745 Broadway, New York, NY",104
+32,40.76623,-73.9864,"840 Ninth Ave, New York, NY",104
+33,40.76439,-73.97678,"57 West 57th Street, New York, NY",104
+34,40.76154,-73.96622,"991 Third Avenue, New York, NY",100
+35,40.79984,-73.34198,"502 Park Avenue, New York, NY",105
+36,40.76619,-73.9607,"1295 Second Ave, New York, NY",108
+37,40.76773,-73.96248,"1180 Third Avenue, New York, NY",108
+38,40.77867,-73.98118,"175 West 72nd Street, New York, NY",107
+39,40.77267,-73.9581,"1345 Third Avenue, New York, NY",108
+40,40.7731,-73.95487,"1512 Second Avenue, New York, NY",108
+41,40.64687,-73.91799,"249 East 86th Street, New York, NY",108
+42,42.90005,-78.78621,"2379 Broadway, New York, NY",107
+43,40.73375,-73.98059,"333 East 102nd Street (Aka 1999 First Avenue), New York, NY",11
+44,40.75178,-73.88469,"37-02 82nd St, Jackson Heights, NY 11372",403
+45,40.74334,-73.86334,"40-20 Queens Blvd, Sunnyside, NY 11104",402
+46,40.70246,-73.81594,"146-21 Jamaica Ave, Jamaica, NY 11435",409
+47,40.72967,-73.8609,"95-25 Queens Blvd, Rego Park, NY 11374",404
+48,40.7158,-73.74656,"216-19 Jamaica Ave, Queens Village, NY 11428",406
+49,40.68714,-73.82185,"114-19 Liberty Ave, South Richmond Hill, NY 11419",305
+50,40.69146,-73.98835,"356 Fulton St, Brooklyn, NY 11201",302
+51,40.671021,-73.957458,"341 Eastern Pkwy, Brooklyn, NY 11216",303
+52,40.67102,-73.95746,"315 Wyckoff Ave, Brooklyn, NY 11237",405
+53,40.6449,-74.0102,"5001 5th Ave, Brooklyn, NY 11220",
+54,40.62599,-73.91831,"2102 Ralph Ave, Brooklyn, NY 11234",
+55,40.58571,-73.9485,"3090 Ocean Ave, Brooklyn, NY 11235",
+56,40.60236,-73.99492,"2150 86th St, Brooklyn, NY 11214",
+57,40.61915,-74.00864,"74-01 13th Ave, Brooklyn, NY 11228",
+58,40.71001,-73.96185,"185 Broadway, Brooklyn, NY 11211",
+59,40.727962,-73.953311,"807 Manhattan Ave, Brooklyn, NY 11222",
+60,40.618513,-73.990569,"6521 18th Ave, Brooklyn, NY 11204",
+61,40.816383,-73.917806,"557 Melrose Ave, Bronx, NY 10455",
+62,40.862558,-73.89791,"151 E Fordham Rd, Bronx, NY 10468",
+63,40.85984,-73.888295,"500 E Fordham Rd, Bronx, NY 10458",
+64,40.85984,-73.888295,"1941 Williamsbridge Rd, Bronx, NY 10461",
+65,40.85984,-73.888295,"386 Forest Ave, Staten Island, NY 10301",

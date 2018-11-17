@@ -15,7 +15,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-    <style>#map_48d5be65ab8841828d239c5e5b370682 {
+    <style>#map_4ff760f5e4b9409f9445925a988fe34a {
         position: relative;
         width: 100.0%;
         height: 100.0%;
@@ -23,10 +23,11 @@
         top: 0.0%;
         }
     </style>
+    <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
 </head>
 <body>    
     
-    <div class="folium-map" id="map_48d5be65ab8841828d239c5e5b370682" ></div>
+    <div class="folium-map" id="map_4ff760f5e4b9409f9445925a988fe34a" ></div>
 </body>
 <script>    
     
@@ -34,8 +35,8 @@
         var bounds = null;
     
 
-    var map_48d5be65ab8841828d239c5e5b370682 = L.map(
-        'map_48d5be65ab8841828d239c5e5b370682', {
+    var map_4ff760f5e4b9409f9445925a988fe34a = L.map(
+        'map_4ff760f5e4b9409f9445925a988fe34a', {
         center: [40.76831, -73.964915],
         zoom: 10,
         maxBounds: bounds,
@@ -47,7 +48,7 @@
 
     
     
-    var tile_layer_3f522992f113454e8e6db43f7c464915 = L.tileLayer(
+    var tile_layer_45e3798bc40a441d993903a49d1f3310 = L.tileLayer(
         'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
         {
         "attribution": null,
@@ -57,375 +58,2423 @@
         "minZoom": 0,
         "noWrap": false,
         "subdomains": "abc"
-}).addTo(map_48d5be65ab8841828d239c5e5b370682);
+}).addTo(map_4ff760f5e4b9409f9445925a988fe34a);
     
-            var circle_marker_b8f7b8d7e4d747cf9642acb60548dc9f = L.circleMarker(
+            var circle_marker_0c85e1f450b34f5393fb7ff0a62e14fd = L.circleMarker(
                 [40.67974, -73.99732],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_42fefa4b5c2e493687eef45047aa8efd = L.popup({maxWidth: '300'
+            var popup_f307fe54e9754b809bc3e7ef11845561 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_4841b83552ef44e9a09307eb845be920 = $('<div id="html_4841b83552ef44e9a09307eb845be920" style="width: 100.0%; height: 100.0%;">420 Court Street Brooklyn, NY 11231</div>')[0];
-                popup_42fefa4b5c2e493687eef45047aa8efd.setContent(html_4841b83552ef44e9a09307eb845be920);
+                var html_277503d96fbf4912adc37028bcf0724e = $('<div id="html_277503d96fbf4912adc37028bcf0724e" style="width: 100.0%; height: 100.0%;">420 Court Street Brooklyn, NY 11231</div>')[0];
+                popup_f307fe54e9754b809bc3e7ef11845561.setContent(html_277503d96fbf4912adc37028bcf0724e);
             
 
-            circle_marker_b8f7b8d7e4d747cf9642acb60548dc9f.bindPopup(popup_42fefa4b5c2e493687eef45047aa8efd)
+            circle_marker_0c85e1f450b34f5393fb7ff0a62e14fd.bindPopup(popup_f307fe54e9754b809bc3e7ef11845561)
             ;
 
             
         
     
-            var circle_marker_6d4b5ed2c5614a0f9bf09e8599ebad70 = L.circleMarker(
+            var circle_marker_c5422353360247f2a98a1b764f39ec64 = L.circleMarker(
                 [40.71443, -74.00646],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_914949006b25468ebc9dda7f6fce2ba9 = L.popup({maxWidth: '300'
+            var popup_f12c8a9ae9ca4290bac919ddb4564c62 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_678f5c331d8e4276b05d311e6e2ca5d8 = $('<div id="html_678f5c331d8e4276b05d311e6e2ca5d8" style="width: 100.0%; height: 100.0%;">277 Broadway New York, NY 10007</div>')[0];
-                popup_914949006b25468ebc9dda7f6fce2ba9.setContent(html_678f5c331d8e4276b05d311e6e2ca5d8);
+                var html_35e26bda1391465aa9e2e10eead29f3e = $('<div id="html_35e26bda1391465aa9e2e10eead29f3e" style="width: 100.0%; height: 100.0%;">277 Broadway New York, NY 10007</div>')[0];
+                popup_f12c8a9ae9ca4290bac919ddb4564c62.setContent(html_35e26bda1391465aa9e2e10eead29f3e);
             
 
-            circle_marker_6d4b5ed2c5614a0f9bf09e8599ebad70.bindPopup(popup_914949006b25468ebc9dda7f6fce2ba9)
+            circle_marker_c5422353360247f2a98a1b764f39ec64.bindPopup(popup_f12c8a9ae9ca4290bac919ddb4564c62)
             ;
 
             
         
     
-            var circle_marker_add88533b570426cb3f6831fb342b519 = L.circleMarker(
+            var circle_marker_a4746076d03e404fbe3d1020f53fc5ba = L.circleMarker(
                 [40.74165, -74.00074000000001],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_08bbe17bafed47a28d31dc0ff0cd95f9 = L.popup({maxWidth: '300'
+            var popup_d374adcffd3b4680a6006f72c9aa62fa = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_d5b5c39ab7fb40e5b7b00e9fd232ea77 = $('<div id="html_d5b5c39ab7fb40e5b7b00e9fd232ea77" style="width: 100.0%; height: 100.0%;">144 8th Ave. New York, NY 10011</div>')[0];
-                popup_08bbe17bafed47a28d31dc0ff0cd95f9.setContent(html_d5b5c39ab7fb40e5b7b00e9fd232ea77);
+                var html_89fe327599734a57a05e0aa6d9962bba = $('<div id="html_89fe327599734a57a05e0aa6d9962bba" style="width: 100.0%; height: 100.0%;">144 8th Ave. New York, NY 10011</div>')[0];
+                popup_d374adcffd3b4680a6006f72c9aa62fa.setContent(html_89fe327599734a57a05e0aa6d9962bba);
             
 
-            circle_marker_add88533b570426cb3f6831fb342b519.bindPopup(popup_08bbe17bafed47a28d31dc0ff0cd95f9)
+            circle_marker_a4746076d03e404fbe3d1020f53fc5ba.bindPopup(popup_d374adcffd3b4680a6006f72c9aa62fa)
             ;
 
             
         
     
-            var circle_marker_7c10718566de4fea856e9d6d66de2049 = L.circleMarker(
+            var circle_marker_6cec58e4ce904bd4905d0e93297d550d = L.circleMarker(
                 [40.78074, -73.80301999999999],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_6908465e640b4b158e77966ae1e59cf8 = L.popup({maxWidth: '300'
+            var popup_b1356d7487ab41509a2f7f8d7ff828b1 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_1c4fa1ee004f4396acb72d0abb4c2896 = $('<div id="html_1c4fa1ee004f4396acb72d0abb4c2896" style="width: 100.0%; height: 100.0%;">20-02 Francis Lewis Blvd Whitestone, NY 11357</div>')[0];
-                popup_6908465e640b4b158e77966ae1e59cf8.setContent(html_1c4fa1ee004f4396acb72d0abb4c2896);
+                var html_1566ff468f3d442986098539df715006 = $('<div id="html_1566ff468f3d442986098539df715006" style="width: 100.0%; height: 100.0%;">20-02 Francis Lewis Blvd Whitestone, NY 11357</div>')[0];
+                popup_b1356d7487ab41509a2f7f8d7ff828b1.setContent(html_1566ff468f3d442986098539df715006);
             
 
-            circle_marker_7c10718566de4fea856e9d6d66de2049.bindPopup(popup_6908465e640b4b158e77966ae1e59cf8)
+            circle_marker_6cec58e4ce904bd4905d0e93297d550d.bindPopup(popup_b1356d7487ab41509a2f7f8d7ff828b1)
             ;
 
             
         
     
-            var circle_marker_8619184376894274a4f51796c186f3b4 = L.circleMarker(
+            var circle_marker_c59cbc8463734283a30e212e293261c8 = L.circleMarker(
                 [40.84957, -73.93486],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_b83138e78c53459db01776c125bd6bd5 = L.popup({maxWidth: '300'
+            var popup_eaeb37cf9c6e43709b43f9f5e52b1e5d = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_8f51d278764a424f85dde16a502baadc = $('<div id="html_8f51d278764a424f85dde16a502baadc" style="width: 100.0%; height: 100.0%;">620 West 181 Street New York, NY 10033</div>')[0];
-                popup_b83138e78c53459db01776c125bd6bd5.setContent(html_8f51d278764a424f85dde16a502baadc);
+                var html_d1ee8fc8dcb2440a8b5717fa95e0793e = $('<div id="html_d1ee8fc8dcb2440a8b5717fa95e0793e" style="width: 100.0%; height: 100.0%;">620 West 181 Street New York, NY 10033</div>')[0];
+                popup_eaeb37cf9c6e43709b43f9f5e52b1e5d.setContent(html_d1ee8fc8dcb2440a8b5717fa95e0793e);
             
 
-            circle_marker_8619184376894274a4f51796c186f3b4.bindPopup(popup_b83138e78c53459db01776c125bd6bd5)
+            circle_marker_c59cbc8463734283a30e212e293261c8.bindPopup(popup_eaeb37cf9c6e43709b43f9f5e52b1e5d)
             ;
 
             
         
     
-            var circle_marker_81d24a4935764f8daf742a59f5247549 = L.circleMarker(
+            var circle_marker_648b2cb4009643ecb322af78681eecff = L.circleMarker(
                 [40.71765, -73.81703],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_949d90fb53a0436fb973993ff7f693e5 = L.popup({maxWidth: '300'
+            var popup_6dec77a6a03f4008a885b442b0a736c3 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_e2cde93ca2eb477eac668aaa28bf3151 = $('<div id="html_e2cde93ca2eb477eac668aaa28bf3151" style="width: 100.0%; height: 100.0%;">75-21 Main St Kew Gardens Hills, NY 11367</div>')[0];
-                popup_949d90fb53a0436fb973993ff7f693e5.setContent(html_e2cde93ca2eb477eac668aaa28bf3151);
+                var html_591e3d02077742dca7f1fadc00730a0d = $('<div id="html_591e3d02077742dca7f1fadc00730a0d" style="width: 100.0%; height: 100.0%;">75-21 Main St Kew Gardens Hills, NY 11367</div>')[0];
+                popup_6dec77a6a03f4008a885b442b0a736c3.setContent(html_591e3d02077742dca7f1fadc00730a0d);
             
 
-            circle_marker_81d24a4935764f8daf742a59f5247549.bindPopup(popup_949d90fb53a0436fb973993ff7f693e5)
+            circle_marker_648b2cb4009643ecb322af78681eecff.bindPopup(popup_6dec77a6a03f4008a885b442b0a736c3)
             ;
 
             
         
     
-            var circle_marker_acca7244e5e24adb8a7b7d6e3d697b46 = L.circleMarker(
+            var circle_marker_508cee7625974a19a2e171cab0dd93f2 = L.circleMarker(
                 [40.75178, -73.88469],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_662dcb66c6c24cf69ac595fe3a2084d9 = L.popup({maxWidth: '300'
+            var popup_ec0f9bcf722d432c8afc430c7f04aebc = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_0bbc09f6611d4aa3804c6247fc0f0a1c = $('<div id="html_0bbc09f6611d4aa3804c6247fc0f0a1c" style="width: 100.0%; height: 100.0%;">37-02 82nd Street Jackson Heights, NY 11372</div>')[0];
-                popup_662dcb66c6c24cf69ac595fe3a2084d9.setContent(html_0bbc09f6611d4aa3804c6247fc0f0a1c);
+                var html_d0ff0387593841e6bb071aec285329dd = $('<div id="html_d0ff0387593841e6bb071aec285329dd" style="width: 100.0%; height: 100.0%;">37-02 82nd Street Jackson Heights, NY 11372</div>')[0];
+                popup_ec0f9bcf722d432c8afc430c7f04aebc.setContent(html_d0ff0387593841e6bb071aec285329dd);
             
 
-            circle_marker_acca7244e5e24adb8a7b7d6e3d697b46.bindPopup(popup_662dcb66c6c24cf69ac595fe3a2084d9)
+            circle_marker_508cee7625974a19a2e171cab0dd93f2.bindPopup(popup_ec0f9bcf722d432c8afc430c7f04aebc)
             ;
 
             
         
     
-            var circle_marker_5deb621a442842a2a676c9880c650ab4 = L.circleMarker(
+            var circle_marker_4bc71b99b49c4618baf42dc36a3e4219 = L.circleMarker(
                 [40.64545, -73.90217],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_d66b93d85cbc4e30bb298c437f1dfd57 = L.popup({maxWidth: '300'
+            var popup_63cc9a625bd2452fbdb1808562c75c52 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_7b1b067221b24e35b0bfecf76fc8df38 = $('<div id="html_7b1b067221b24e35b0bfecf76fc8df38" style="width: 100.0%; height: 100.0%;">1425 Rockaway Pkwy Brooklyn, NY 11236</div>')[0];
-                popup_d66b93d85cbc4e30bb298c437f1dfd57.setContent(html_7b1b067221b24e35b0bfecf76fc8df38);
+                var html_e3c6da89fa5d478da11e23b8fb861c06 = $('<div id="html_e3c6da89fa5d478da11e23b8fb861c06" style="width: 100.0%; height: 100.0%;">1425 Rockaway Pkwy Brooklyn, NY 11236</div>')[0];
+                popup_63cc9a625bd2452fbdb1808562c75c52.setContent(html_e3c6da89fa5d478da11e23b8fb861c06);
             
 
-            circle_marker_5deb621a442842a2a676c9880c650ab4.bindPopup(popup_d66b93d85cbc4e30bb298c437f1dfd57)
+            circle_marker_4bc71b99b49c4618baf42dc36a3e4219.bindPopup(popup_63cc9a625bd2452fbdb1808562c75c52)
             ;
 
             
         
     
-            var circle_marker_81c57a47aab64f30aaf253dd4a162cc9 = L.circleMarker(
+            var circle_marker_9169e957a14a4ba79149199947defcb9 = L.circleMarker(
                 [40.78453, -73.94729],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_979c61e6ff5b4b3a99fa776735c09933 = L.popup({maxWidth: '300'
+            var popup_7674cbc27b7e4e968e918d9b79faf549 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_ab9bcb23dd624d058539cc3244b0f571 = $('<div id="html_ab9bcb23dd624d058539cc3244b0f571" style="width: 100.0%; height: 100.0%;">1865 2nd Avenue  New York, NY 10029</div>')[0];
-                popup_979c61e6ff5b4b3a99fa776735c09933.setContent(html_ab9bcb23dd624d058539cc3244b0f571);
+                var html_da9b5cc65b504d4ba4431e30dc52ac2a = $('<div id="html_da9b5cc65b504d4ba4431e30dc52ac2a" style="width: 100.0%; height: 100.0%;">1865 2nd Avenue  New York, NY 10029</div>')[0];
+                popup_7674cbc27b7e4e968e918d9b79faf549.setContent(html_da9b5cc65b504d4ba4431e30dc52ac2a);
             
 
-            circle_marker_81c57a47aab64f30aaf253dd4a162cc9.bindPopup(popup_979c61e6ff5b4b3a99fa776735c09933)
+            circle_marker_9169e957a14a4ba79149199947defcb9.bindPopup(popup_7674cbc27b7e4e968e918d9b79faf549)
             ;
 
             
         
     
-            var circle_marker_ad3a68a0a1454a0c9fda12360594d479 = L.circleMarker(
+            var circle_marker_c107f7d11a2c453ca7e5652cf97b1e6d = L.circleMarker(
                 [40.77949, -73.95555999999999],
                 {
   "bubblingMouseEvents": true,
   "color": "#3388ff",
   "dashArray": null,
   "dashOffset": null,
-  "fill": false,
-  "fillColor": "#3388ff",
+  "fill": true,
+  "fillColor": "#3db7e4",
   "fillOpacity": 0.2,
   "fillRule": "evenodd",
   "lineCap": "round",
   "lineJoin": "round",
   "opacity": 1.0,
-  "radius": 10,
+  "radius": 15,
   "stroke": true,
   "weight": 3
 }
                 )
-                .addTo(map_48d5be65ab8841828d239c5e5b370682);
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
             
     
-            var popup_3e47cb536d3e4469901b69d102f7c749 = L.popup({maxWidth: '300'
+            var popup_18bb2738143a42c3a1711ef9cc59eed3 = L.popup({maxWidth: '300'
             
             });
 
             
-                var html_1ee4f1e61676463986444300da9c0ace = $('<div id="html_1ee4f1e61676463986444300da9c0ace" style="width: 100.0%; height: 100.0%;">249 East 86th Street New York, NY 10028</div>')[0];
-                popup_3e47cb536d3e4469901b69d102f7c749.setContent(html_1ee4f1e61676463986444300da9c0ace);
+                var html_0a47357caeb34072bd44be8f737b77d8 = $('<div id="html_0a47357caeb34072bd44be8f737b77d8" style="width: 100.0%; height: 100.0%;">249 East 86th Street New York, NY 10028</div>')[0];
+                popup_18bb2738143a42c3a1711ef9cc59eed3.setContent(html_0a47357caeb34072bd44be8f737b77d8);
             
 
-            circle_marker_ad3a68a0a1454a0c9fda12360594d479.bindPopup(popup_3e47cb536d3e4469901b69d102f7c749)
+            circle_marker_c107f7d11a2c453ca7e5652cf97b1e6d.bindPopup(popup_18bb2738143a42c3a1711ef9cc59eed3)
             ;
 
             
+        
+    
+            var circle_marker_c2d2514c5a2349e0a8dab8274ef375cf = L.circleMarker(
+                [40.7155, -74.00958],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_07d2bdb24e8643698a4fef15ef403ee3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ccb7cfe8d9e441759b9e83e4de9706cc = $('<div id="html_ccb7cfe8d9e441759b9e83e4de9706cc" style="width: 100.0%; height: 100.0%;">90 West Broadway, New York, NY</div>')[0];
+                popup_07d2bdb24e8643698a4fef15ef403ee3.setContent(html_ccb7cfe8d9e441759b9e83e4de9706cc);
+            
+
+            circle_marker_c2d2514c5a2349e0a8dab8274ef375cf.bindPopup(popup_07d2bdb24e8643698a4fef15ef403ee3)
+            ;
+
+            
+        
+    
+            var circle_marker_72aa77955c4e424db660fbb91c4edddb = L.circleMarker(
+                [40.67735, -73.41773],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_002b10a609424a498bf1e0cd099d0557 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f707b4af00a8407db96bf2e2445a404b = $('<div id="html_f707b4af00a8407db96bf2e2445a404b" style="width: 100.0%; height: 100.0%;">176 Broadway, New York, NY</div>')[0];
+                popup_002b10a609424a498bf1e0cd099d0557.setContent(html_f707b4af00a8407db96bf2e2445a404b);
+            
+
+            circle_marker_72aa77955c4e424db660fbb91c4edddb.bindPopup(popup_002b10a609424a498bf1e0cd099d0557)
+            ;
+
+            
+        
+    
+            var circle_marker_7426232f2ce84099916f85740356d438 = L.circleMarker(
+                [40.71839, -73.9952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_5be73d84613647d683e4f8e9e6e76bbc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b77609174efa426d83f2ff8897aef62f = $('<div id="html_b77609174efa426d83f2ff8897aef62f" style="width: 100.0%; height: 100.0%;">116 Bowery, New York, NY</div>')[0];
+                popup_5be73d84613647d683e4f8e9e6e76bbc.setContent(html_b77609174efa426d83f2ff8897aef62f);
+            
+
+            circle_marker_7426232f2ce84099916f85740356d438.bindPopup(popup_5be73d84613647d683e4f8e9e6e76bbc)
+            ;
+
+            
+        
+    
+            var circle_marker_820a582024a34aff8fa5befa791b90fd = L.circleMarker(
+                [40.7281, -73.99965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_24b5b34735134f53879193222d9688c5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_57a0bd9ce83f4b2a926d80e24d3c9d7c = $('<div id="html_57a0bd9ce83f4b2a926d80e24d3c9d7c" style="width: 100.0%; height: 100.0%;">154 Bleecker Street, New York, NY</div>')[0];
+                popup_24b5b34735134f53879193222d9688c5.setContent(html_57a0bd9ce83f4b2a926d80e24d3c9d7c);
+            
+
+            circle_marker_820a582024a34aff8fa5befa791b90fd.bindPopup(popup_24b5b34735134f53879193222d9688c5)
+            ;
+
+            
+        
+    
+            var circle_marker_d9772125cd904b06819ac595e089b20a = L.circleMarker(
+                [42.38089, -76.87526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_8d567a09afa24af4a3636578c48a2a76 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2a8772de343d4d10a1acdfbb8da1222a = $('<div id="html_2a8772de343d4d10a1acdfbb8da1222a" style="width: 100.0%; height: 100.0%;">159 West 4th Street, New York, NY</div>')[0];
+                popup_8d567a09afa24af4a3636578c48a2a76.setContent(html_2a8772de343d4d10a1acdfbb8da1222a);
+            
+
+            circle_marker_d9772125cd904b06819ac595e089b20a.bindPopup(popup_8d567a09afa24af4a3636578c48a2a76)
+            ;
+
+            
+        
+    
+            var circle_marker_90da0fa594014b1dba99faa96e8525f5 = L.circleMarker(
+                [40.73168, -73.99406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_781473810dbe4d4f982d9eef02c748bb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d5b8c8ff4784c45869eefd9cc752b84 = $('<div id="html_9d5b8c8ff4784c45869eefd9cc752b84" style="width: 100.0%; height: 100.0%;">21 University Place, New York, NY</div>')[0];
+                popup_781473810dbe4d4f982d9eef02c748bb.setContent(html_9d5b8c8ff4784c45869eefd9cc752b84);
+            
+
+            circle_marker_90da0fa594014b1dba99faa96e8525f5.bindPopup(popup_781473810dbe4d4f982d9eef02c748bb)
+            ;
+
+            
+        
+    
+            var circle_marker_cf9a74fef525458ca10241e3e432dba4 = L.circleMarker(
+                [42.13765, -77.04451999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_2654b6106ee443dfa164727ecd0391e7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c659c42d90ed41b4a5697616f08bdf57 = $('<div id="html_c659c42d90ed41b4a5697616f08bdf57" style="width: 100.0%; height: 100.0%;">273 East 3rd Street, New York, NY</div>')[0];
+                popup_2654b6106ee443dfa164727ecd0391e7.setContent(html_c659c42d90ed41b4a5697616f08bdf57);
+            
+
+            circle_marker_cf9a74fef525458ca10241e3e432dba4.bindPopup(popup_2654b6106ee443dfa164727ecd0391e7)
+            ;
+
+            
+        
+    
+            var circle_marker_b8bb40b03f8a4fe4914cae4730b47df7 = L.circleMarker(
+                [40.72981, -73.9872],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_98c176b629be42bda081ca84233d8244 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5be6d8fca1d94b50bc70b072cdf544ba = $('<div id="html_5be6d8fca1d94b50bc70b072cdf544ba" style="width: 100.0%; height: 100.0%;">159 2nd Avenue, New York, NY</div>')[0];
+                popup_98c176b629be42bda081ca84233d8244.setContent(html_5be6d8fca1d94b50bc70b072cdf544ba);
+            
+
+            circle_marker_b8bb40b03f8a4fe4914cae4730b47df7.bindPopup(popup_98c176b629be42bda081ca84233d8244)
+            ;
+
+            
+        
+    
+            var circle_marker_5c4ebb25257943f78fae441abac2ad99 = L.circleMarker(
+                [40.73297, -73.98697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_0fb70b2ab17c4cf4aea64033e59a18c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c025866481ad4e38b0ea9176e7f60ffe = $('<div id="html_c025866481ad4e38b0ea9176e7f60ffe" style="width: 100.0%; height: 100.0%;">123 Third Avenue, New York, NY</div>')[0];
+                popup_0fb70b2ab17c4cf4aea64033e59a18c9.setContent(html_c025866481ad4e38b0ea9176e7f60ffe);
+            
+
+            circle_marker_5c4ebb25257943f78fae441abac2ad99.bindPopup(popup_0fb70b2ab17c4cf4aea64033e59a18c9)
+            ;
+
+            
+        
+    
+            var circle_marker_2bdd7fa6752a4ecab4b56cb485f273b4 = L.circleMarker(
+                [40.73717, -73.98961],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_d03a1a5a0bf24fc4bffd8e9e922c632f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2db1fbb552414709b8f31fc854ce76a9 = $('<div id="html_2db1fbb552414709b8f31fc854ce76a9" style="width: 100.0%; height: 100.0%;">31 East 17th Street, New York, NY</div>')[0];
+                popup_d03a1a5a0bf24fc4bffd8e9e922c632f.setContent(html_2db1fbb552414709b8f31fc854ce76a9);
+            
+
+            circle_marker_2bdd7fa6752a4ecab4b56cb485f273b4.bindPopup(popup_d03a1a5a0bf24fc4bffd8e9e922c632f)
+            ;
+
+            
+        
+    
+            var circle_marker_06cf41f7708340c79a87e0ef7265d019 = L.circleMarker(
+                [40.74306, -73.99377],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_924972e2f0824dfe83855ae7b55b3480 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_16174af2826c4b5eb0ee9d59110634fb = $('<div id="html_16174af2826c4b5eb0ee9d59110634fb" style="width: 100.0%; height: 100.0%;">120 W. 23rd Street, New York, NY</div>')[0];
+                popup_924972e2f0824dfe83855ae7b55b3480.setContent(html_16174af2826c4b5eb0ee9d59110634fb);
+            
+
+            circle_marker_06cf41f7708340c79a87e0ef7265d019.bindPopup(popup_924972e2f0824dfe83855ae7b55b3480)
+            ;
+
+            
+        
+    
+            var circle_marker_9834b7208dc948b199f626ea05fe3818 = L.circleMarker(
+                [40.74678, -74.00142],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_17107913f44448d894383d7adb638ef5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_537beb9c9ec64da6b7fbd84106236c4c = $('<div id="html_537beb9c9ec64da6b7fbd84106236c4c" style="width: 100.0%; height: 100.0%;">401 West 23rd Street, New York, NY</div>')[0];
+                popup_17107913f44448d894383d7adb638ef5.setContent(html_537beb9c9ec64da6b7fbd84106236c4c);
+            
+
+            circle_marker_9834b7208dc948b199f626ea05fe3818.bindPopup(popup_17107913f44448d894383d7adb638ef5)
+            ;
+
+            
+        
+    
+            var circle_marker_2051af3d58f04cd28acc6589f283236f = L.circleMarker(
+                [40.74566, -73.9826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_92fdce92b29540278f8d5d4ffca71e1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_584d81c8c2e84c038ef00bdaf9ede72b = $('<div id="html_584d81c8c2e84c038ef00bdaf9ede72b" style="width: 100.0%; height: 100.0%;">470 Park Avenue South, New York, NY</div>')[0];
+                popup_92fdce92b29540278f8d5d4ffca71e1c.setContent(html_584d81c8c2e84c038ef00bdaf9ede72b);
+            
+
+            circle_marker_2051af3d58f04cd28acc6589f283236f.bindPopup(popup_92fdce92b29540278f8d5d4ffca71e1c)
+            ;
+
+            
+        
+    
+            var circle_marker_68ea21e6fa5d43a58c9a626845db0f76 = L.circleMarker(
+                [40.74508, -73.97613],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_abc54d64f1eb4860b4c9d3af4455b94a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d47fc7970ed45d38cf61d99e04e0ecf = $('<div id="html_7d47fc7970ed45d38cf61d99e04e0ecf" style="width: 100.0%; height: 100.0%;">245 East 34th Street, New York, NY</div>')[0];
+                popup_abc54d64f1eb4860b4c9d3af4455b94a.setContent(html_7d47fc7970ed45d38cf61d99e04e0ecf);
+            
+
+            circle_marker_68ea21e6fa5d43a58c9a626845db0f76.bindPopup(popup_abc54d64f1eb4860b4c9d3af4455b94a)
+            ;
+
+            
+        
+    
+            var circle_marker_d63a280abce5412f8d8196077b4dfa36 = L.circleMarker(
+                [40.75099, -73.99061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_ea6b8f1161534fe0bc44ce7e3b7a7465 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed5c5494e8c042cfb1450118f6f6b435 = $('<div id="html_ed5c5494e8c042cfb1450118f6f6b435" style="width: 100.0%; height: 100.0%;">One Penn Plaza, New York, NY</div>')[0];
+                popup_ea6b8f1161534fe0bc44ce7e3b7a7465.setContent(html_ed5c5494e8c042cfb1450118f6f6b435);
+            
+
+            circle_marker_d63a280abce5412f8d8196077b4dfa36.bindPopup(popup_ea6b8f1161534fe0bc44ce7e3b7a7465)
+            ;
+
+            
+        
+    
+            var circle_marker_f32c459793f043a0a4f43df5c401133d = L.circleMarker(
+                [40.75033, -73.98371],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_1e52e27abd224401ba4540fd3a6b6e5b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd386891077e476e9183ff28f405ee91 = $('<div id="html_cd386891077e476e9183ff28f405ee91" style="width: 100.0%; height: 100.0%;">404 Fifth Avenue, New York, NY</div>')[0];
+                popup_1e52e27abd224401ba4540fd3a6b6e5b.setContent(html_cd386891077e476e9183ff28f405ee91);
+            
+
+            circle_marker_f32c459793f043a0a4f43df5c401133d.bindPopup(popup_1e52e27abd224401ba4540fd3a6b6e5b)
+            ;
+
+            
+        
+    
+            var circle_marker_ab95ba9cecac43e3af73bb005f0c2756 = L.circleMarker(
+                [42.05434, -76.82011],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_146a383b28254ec696c93c38ec8b1226 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1cde2ec43fc4464b9d6a27c2ea2f6126 = $('<div id="html_1cde2ec43fc4464b9d6a27c2ea2f6126" style="width: 100.0%; height: 100.0%;">1407 Broadway, New York, NY</div>')[0];
+                popup_146a383b28254ec696c93c38ec8b1226.setContent(html_1cde2ec43fc4464b9d6a27c2ea2f6126);
+            
+
+            circle_marker_ab95ba9cecac43e3af73bb005f0c2756.bindPopup(popup_146a383b28254ec696c93c38ec8b1226)
+            ;
+
+            
+        
+    
+            var circle_marker_d3d34a1bf40f47ccab6ca98a33c3ec7c = L.circleMarker(
+                [40.74977, -73.97319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_a41d3cdcae81400f85b74ec4bc4956b1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_529c100b36e0448ca73cb5c15e9249fa = $('<div id="html_529c100b36e0448ca73cb5c15e9249fa" style="width: 100.0%; height: 100.0%;">220 East 42nd Street, New York, NY</div>')[0];
+                popup_a41d3cdcae81400f85b74ec4bc4956b1.setContent(html_529c100b36e0448ca73cb5c15e9249fa);
+            
+
+            circle_marker_d3d34a1bf40f47ccab6ca98a33c3ec7c.bindPopup(popup_a41d3cdcae81400f85b74ec4bc4956b1)
+            ;
+
+            
+        
+    
+            var circle_marker_1c1a46a1f1004e1a9754af42bb58a2cc = L.circleMarker(
+                [42.13321, -77.0362],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_027557da9bd145e8a0f321d1324e307c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9f9ecb0d439a4e7db971af1d1185b9a7 = $('<div id="html_9f9ecb0d439a4e7db971af1d1185b9a7" style="width: 100.0%; height: 100.0%;">320 Park Avenue, New York, NY</div>')[0];
+                popup_027557da9bd145e8a0f321d1324e307c.setContent(html_9f9ecb0d439a4e7db971af1d1185b9a7);
+            
+
+            circle_marker_1c1a46a1f1004e1a9754af42bb58a2cc.bindPopup(popup_027557da9bd145e8a0f321d1324e307c)
+            ;
+
+            
+        
+    
+            var circle_marker_a65492aa9985403fb4c60d9b1fd32699 = L.circleMarker(
+                [40.75662, -73.96976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_d30df22ffe2248fc806fce4a4fbd4799 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_43a232a87da244e4ae986ecc6800aa09 = $('<div id="html_43a232a87da244e4ae986ecc6800aa09" style="width: 100.0%; height: 100.0%;">845 Third Avenue, New York, NY</div>')[0];
+                popup_d30df22ffe2248fc806fce4a4fbd4799.setContent(html_43a232a87da244e4ae986ecc6800aa09);
+            
+
+            circle_marker_a65492aa9985403fb4c60d9b1fd32699.bindPopup(popup_d30df22ffe2248fc806fce4a4fbd4799)
+            ;
+
+            
+        
+    
+            var circle_marker_0e8717b866f545179b1d1e249c12cfef = L.circleMarker(
+                [42.05291, -76.82083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_d41335b92a994b8db9d0fa709479b0da = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0cf8bc24c3fe41c2931f3761f03ee4db = $('<div id="html_0cf8bc24c3fe41c2931f3761f03ee4db" style="width: 100.0%; height: 100.0%;">1745 Broadway, New York, NY</div>')[0];
+                popup_d41335b92a994b8db9d0fa709479b0da.setContent(html_0cf8bc24c3fe41c2931f3761f03ee4db);
+            
+
+            circle_marker_0e8717b866f545179b1d1e249c12cfef.bindPopup(popup_d41335b92a994b8db9d0fa709479b0da)
+            ;
+
+            
+        
+    
+            var circle_marker_700c509506b045aebc18369b23530773 = L.circleMarker(
+                [40.76623, -73.9864],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_7f07f85d093e4c5e85cb4334724743cc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_61646b7c039f4cc68875ae4dd15f0304 = $('<div id="html_61646b7c039f4cc68875ae4dd15f0304" style="width: 100.0%; height: 100.0%;">840 Ninth Ave, New York, NY</div>')[0];
+                popup_7f07f85d093e4c5e85cb4334724743cc.setContent(html_61646b7c039f4cc68875ae4dd15f0304);
+            
+
+            circle_marker_700c509506b045aebc18369b23530773.bindPopup(popup_7f07f85d093e4c5e85cb4334724743cc)
+            ;
+
+            
+        
+    
+            var circle_marker_1058613b6a284d08b17046ac70bfa3c1 = L.circleMarker(
+                [40.76439, -73.97678],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_b04458b645964052823509b20c3e9dd3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6f754b0349e746b39e4d22f8ed2792f7 = $('<div id="html_6f754b0349e746b39e4d22f8ed2792f7" style="width: 100.0%; height: 100.0%;">57 West 57th Street, New York, NY</div>')[0];
+                popup_b04458b645964052823509b20c3e9dd3.setContent(html_6f754b0349e746b39e4d22f8ed2792f7);
+            
+
+            circle_marker_1058613b6a284d08b17046ac70bfa3c1.bindPopup(popup_b04458b645964052823509b20c3e9dd3)
+            ;
+
+            
+        
+    
+            var circle_marker_6c726e9e2ae64e71be87f557c6abcffa = L.circleMarker(
+                [40.761540000000004, -73.96621999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_e5e30c138f194af4882a38582b67be9b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f333bdd7778f41beb8defe693fa490ef = $('<div id="html_f333bdd7778f41beb8defe693fa490ef" style="width: 100.0%; height: 100.0%;">991 Third Avenue, New York, NY</div>')[0];
+                popup_e5e30c138f194af4882a38582b67be9b.setContent(html_f333bdd7778f41beb8defe693fa490ef);
+            
+
+            circle_marker_6c726e9e2ae64e71be87f557c6abcffa.bindPopup(popup_e5e30c138f194af4882a38582b67be9b)
+            ;
+
+            
+        
+    
+            var circle_marker_2059f4520b7849598b2a1167d2e00d47 = L.circleMarker(
+                [40.79984, -73.34198],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_34ad82d1919b4bec8484afbb32c35bce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8c1c7440040640fca652a3d58d82c647 = $('<div id="html_8c1c7440040640fca652a3d58d82c647" style="width: 100.0%; height: 100.0%;">502 Park Avenue, New York, NY</div>')[0];
+                popup_34ad82d1919b4bec8484afbb32c35bce.setContent(html_8c1c7440040640fca652a3d58d82c647);
+            
+
+            circle_marker_2059f4520b7849598b2a1167d2e00d47.bindPopup(popup_34ad82d1919b4bec8484afbb32c35bce)
+            ;
+
+            
+        
+    
+            var circle_marker_464407603d1e4e628b2e00a817ca2925 = L.circleMarker(
+                [40.76619, -73.9607],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_1aa8e52a15fd40488cc72a1d90de720c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c52bb8f637fb47e289db73547e638901 = $('<div id="html_c52bb8f637fb47e289db73547e638901" style="width: 100.0%; height: 100.0%;">1295 Second Ave, New York, NY</div>')[0];
+                popup_1aa8e52a15fd40488cc72a1d90de720c.setContent(html_c52bb8f637fb47e289db73547e638901);
+            
+
+            circle_marker_464407603d1e4e628b2e00a817ca2925.bindPopup(popup_1aa8e52a15fd40488cc72a1d90de720c)
+            ;
+
+            
+        
+    
+            var circle_marker_f98bc9264c204ed8b61567443d16c608 = L.circleMarker(
+                [40.76773, -73.96248],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_f71f9ea722e04e08a508f7fde41c4664 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6ec088d137ef43feb58eb42eb69f3f77 = $('<div id="html_6ec088d137ef43feb58eb42eb69f3f77" style="width: 100.0%; height: 100.0%;">1180 Third Avenue, New York, NY</div>')[0];
+                popup_f71f9ea722e04e08a508f7fde41c4664.setContent(html_6ec088d137ef43feb58eb42eb69f3f77);
+            
+
+            circle_marker_f98bc9264c204ed8b61567443d16c608.bindPopup(popup_f71f9ea722e04e08a508f7fde41c4664)
+            ;
+
+            
+        
+    
+            var circle_marker_d2555430ef0c4612ba658445f25eb071 = L.circleMarker(
+                [40.77867, -73.98118000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_0a07757160764bc4bb7dd4d10be949fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca84689144dd48d3842672bd25802f78 = $('<div id="html_ca84689144dd48d3842672bd25802f78" style="width: 100.0%; height: 100.0%;">175 West 72nd Street, New York, NY</div>')[0];
+                popup_0a07757160764bc4bb7dd4d10be949fb.setContent(html_ca84689144dd48d3842672bd25802f78);
+            
+
+            circle_marker_d2555430ef0c4612ba658445f25eb071.bindPopup(popup_0a07757160764bc4bb7dd4d10be949fb)
+            ;
+
+            
+        
+    
+            var circle_marker_78024cfe944247f9bcfe83d57d860608 = L.circleMarker(
+                [40.77267, -73.9581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_e3476f7d33f6404ab17ee45903a39cf3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd33325c6f2a4fd48200a8b85a791495 = $('<div id="html_bd33325c6f2a4fd48200a8b85a791495" style="width: 100.0%; height: 100.0%;">1345 Third Avenue, New York, NY</div>')[0];
+                popup_e3476f7d33f6404ab17ee45903a39cf3.setContent(html_bd33325c6f2a4fd48200a8b85a791495);
+            
+
+            circle_marker_78024cfe944247f9bcfe83d57d860608.bindPopup(popup_e3476f7d33f6404ab17ee45903a39cf3)
+            ;
+
+            
+        
+    
+            var circle_marker_fb984230d2734863ade76f6231955040 = L.circleMarker(
+                [40.7731, -73.95487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_0b255eaa6d524ede954860219901ef99 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cd5074c48a8a49528b88e94eafa96f74 = $('<div id="html_cd5074c48a8a49528b88e94eafa96f74" style="width: 100.0%; height: 100.0%;">1512 Second Avenue, New York, NY</div>')[0];
+                popup_0b255eaa6d524ede954860219901ef99.setContent(html_cd5074c48a8a49528b88e94eafa96f74);
+            
+
+            circle_marker_fb984230d2734863ade76f6231955040.bindPopup(popup_0b255eaa6d524ede954860219901ef99)
+            ;
+
+            
+        
+    
+            var circle_marker_db925902d38b430cbc3f91fa10176519 = L.circleMarker(
+                [40.64687, -73.91799],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_a0959bd82c2242c0bfb562c367e982df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f69781d266e5412ca13f00df601d1d7f = $('<div id="html_f69781d266e5412ca13f00df601d1d7f" style="width: 100.0%; height: 100.0%;">249 East 86th Street, New York, NY</div>')[0];
+                popup_a0959bd82c2242c0bfb562c367e982df.setContent(html_f69781d266e5412ca13f00df601d1d7f);
+            
+
+            circle_marker_db925902d38b430cbc3f91fa10176519.bindPopup(popup_a0959bd82c2242c0bfb562c367e982df)
+            ;
+
+            
+        
+    
+            var circle_marker_84a4c7633b564f8fa5d07a29beed0f24 = L.circleMarker(
+                [42.90005, -78.78621],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_1cfd6fbcfc9f46089579e5ecd90e5fd2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e49ee6e5986c483f9be300a17f4885d9 = $('<div id="html_e49ee6e5986c483f9be300a17f4885d9" style="width: 100.0%; height: 100.0%;">2379 Broadway, New York, NY</div>')[0];
+                popup_1cfd6fbcfc9f46089579e5ecd90e5fd2.setContent(html_e49ee6e5986c483f9be300a17f4885d9);
+            
+
+            circle_marker_84a4c7633b564f8fa5d07a29beed0f24.bindPopup(popup_1cfd6fbcfc9f46089579e5ecd90e5fd2)
+            ;
+
+            
+        
+    
+            var circle_marker_a7883819d14a4358bbd99c0de8ab1f62 = L.circleMarker(
+                [40.73375, -73.98059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_8e015706e0ae4edda120fe0f0a58e4b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_69a5b203aee948719fc0b50e36180851 = $('<div id="html_69a5b203aee948719fc0b50e36180851" style="width: 100.0%; height: 100.0%;">333 East 102nd Street (Aka 1999 First Avenue), New York, NY</div>')[0];
+                popup_8e015706e0ae4edda120fe0f0a58e4b5.setContent(html_69a5b203aee948719fc0b50e36180851);
+            
+
+            circle_marker_a7883819d14a4358bbd99c0de8ab1f62.bindPopup(popup_8e015706e0ae4edda120fe0f0a58e4b5)
+            ;
+
+            
+        
+    
+            var circle_marker_46b82f66bb8240e6841b8760f5c87274 = L.circleMarker(
+                [40.75178, -73.88469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_bd1f36ef5eab42dda1364473bbc655d9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_20444e9feaf4427fa4beedf75ec58e16 = $('<div id="html_20444e9feaf4427fa4beedf75ec58e16" style="width: 100.0%; height: 100.0%;">37-02 82nd St, Jackson Heights, NY 11372</div>')[0];
+                popup_bd1f36ef5eab42dda1364473bbc655d9.setContent(html_20444e9feaf4427fa4beedf75ec58e16);
+            
+
+            circle_marker_46b82f66bb8240e6841b8760f5c87274.bindPopup(popup_bd1f36ef5eab42dda1364473bbc655d9)
+            ;
+
+            
+        
+    
+            var circle_marker_ebf4a993b69d4704ad0eca30b297fb51 = L.circleMarker(
+                [40.74334, -73.86334000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_85625612b5a04d17a198130e85f13e1c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85731a8a193b4bb8b03380ce95749c56 = $('<div id="html_85731a8a193b4bb8b03380ce95749c56" style="width: 100.0%; height: 100.0%;">40-20 Queens Blvd, Sunnyside, NY 11104</div>')[0];
+                popup_85625612b5a04d17a198130e85f13e1c.setContent(html_85731a8a193b4bb8b03380ce95749c56);
+            
+
+            circle_marker_ebf4a993b69d4704ad0eca30b297fb51.bindPopup(popup_85625612b5a04d17a198130e85f13e1c)
+            ;
+
+            
+        
+    
+            var circle_marker_24b2ef6decde432796e99f9bea5d3a28 = L.circleMarker(
+                [40.702459999999995, -73.81594],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_cb015d10331446a0b4ca386d0a7fd7cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_51f086aa3fe34c70ab8f9a751c85ab52 = $('<div id="html_51f086aa3fe34c70ab8f9a751c85ab52" style="width: 100.0%; height: 100.0%;">146-21 Jamaica Ave, Jamaica, NY 11435</div>')[0];
+                popup_cb015d10331446a0b4ca386d0a7fd7cb.setContent(html_51f086aa3fe34c70ab8f9a751c85ab52);
+            
+
+            circle_marker_24b2ef6decde432796e99f9bea5d3a28.bindPopup(popup_cb015d10331446a0b4ca386d0a7fd7cb)
+            ;
+
+            
+        
+    
+            var circle_marker_3f1d24685d824db7b42cb7b737c9537d = L.circleMarker(
+                [40.72967, -73.8609],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_df6995566a0f40d8a79e0b9a87f65ccb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b213fb02f06b4db58ca4c635e05e7d1e = $('<div id="html_b213fb02f06b4db58ca4c635e05e7d1e" style="width: 100.0%; height: 100.0%;">95-25 Queens Blvd, Rego Park, NY 11374</div>')[0];
+                popup_df6995566a0f40d8a79e0b9a87f65ccb.setContent(html_b213fb02f06b4db58ca4c635e05e7d1e);
+            
+
+            circle_marker_3f1d24685d824db7b42cb7b737c9537d.bindPopup(popup_df6995566a0f40d8a79e0b9a87f65ccb)
+            ;
+
+            
+        
+    
+            var circle_marker_b73b84aa42d44531b916ae5b5e0cbda6 = L.circleMarker(
+                [40.7158, -73.74656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_6bdcd1801f824171b66182707a53f806 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_feaccbb50e7e47b8802d410ff30ded3f = $('<div id="html_feaccbb50e7e47b8802d410ff30ded3f" style="width: 100.0%; height: 100.0%;">216-19 Jamaica Ave, Queens Village, NY 11428</div>')[0];
+                popup_6bdcd1801f824171b66182707a53f806.setContent(html_feaccbb50e7e47b8802d410ff30ded3f);
+            
+
+            circle_marker_b73b84aa42d44531b916ae5b5e0cbda6.bindPopup(popup_6bdcd1801f824171b66182707a53f806)
+            ;
+
+            
+        
+    
+            var circle_marker_17232179983c4fdbaf0f50318237f747 = L.circleMarker(
+                [40.68714, -73.82185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_c4308d7f61ed48fa8f0eed8fa4644fb1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_719dcdc05ab04801bdcae9131dc433f8 = $('<div id="html_719dcdc05ab04801bdcae9131dc433f8" style="width: 100.0%; height: 100.0%;">114-19 Liberty Ave, South Richmond Hill, NY 11419</div>')[0];
+                popup_c4308d7f61ed48fa8f0eed8fa4644fb1.setContent(html_719dcdc05ab04801bdcae9131dc433f8);
+            
+
+            circle_marker_17232179983c4fdbaf0f50318237f747.bindPopup(popup_c4308d7f61ed48fa8f0eed8fa4644fb1)
+            ;
+
+            
+        
+    
+            var circle_marker_6bbf6251a6c34f7aa268dd8ce924732a = L.circleMarker(
+                [40.69146, -73.98835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_0a0325c73eb44828bb1cfceb68ea894d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_145df250f25d4651bdeb54a16a3b4392 = $('<div id="html_145df250f25d4651bdeb54a16a3b4392" style="width: 100.0%; height: 100.0%;">356 Fulton St, Brooklyn, NY 11201</div>')[0];
+                popup_0a0325c73eb44828bb1cfceb68ea894d.setContent(html_145df250f25d4651bdeb54a16a3b4392);
+            
+
+            circle_marker_6bbf6251a6c34f7aa268dd8ce924732a.bindPopup(popup_0a0325c73eb44828bb1cfceb68ea894d)
+            ;
+
+            
+        
+    
+            var circle_marker_7522647c9c0142108282e61ddae97097 = L.circleMarker(
+                [40.671021, -73.957458],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_24e539ab02fc414e90bf04f492629e57 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a90eed6ce972457db07cb9cb1077e84a = $('<div id="html_a90eed6ce972457db07cb9cb1077e84a" style="width: 100.0%; height: 100.0%;">341 Eastern Pkwy, Brooklyn, NY 11216</div>')[0];
+                popup_24e539ab02fc414e90bf04f492629e57.setContent(html_a90eed6ce972457db07cb9cb1077e84a);
+            
+
+            circle_marker_7522647c9c0142108282e61ddae97097.bindPopup(popup_24e539ab02fc414e90bf04f492629e57)
+            ;
+
+            
+        
+    
+            var circle_marker_d102f76f22834dbc99cf3b605a802332 = L.circleMarker(
+                [40.67102, -73.95746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_c725a47b50264394a48ce987d86de461 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a99b5b76aefd495b9005c0affbeec907 = $('<div id="html_a99b5b76aefd495b9005c0affbeec907" style="width: 100.0%; height: 100.0%;">315 Wyckoff Ave, Brooklyn, NY 11237</div>')[0];
+                popup_c725a47b50264394a48ce987d86de461.setContent(html_a99b5b76aefd495b9005c0affbeec907);
+            
+
+            circle_marker_d102f76f22834dbc99cf3b605a802332.bindPopup(popup_c725a47b50264394a48ce987d86de461)
+            ;
+
+            
+        
+    
+            var circle_marker_5ba8d347e9284e4fb169c217b8fda497 = L.circleMarker(
+                [40.6449, -74.0102],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_d828268a2fc645eb87c38a7574829250 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_63820a8c1e304ac9a5ddbd2ab0c4ad45 = $('<div id="html_63820a8c1e304ac9a5ddbd2ab0c4ad45" style="width: 100.0%; height: 100.0%;">5001 5th Ave, Brooklyn, NY 11220</div>')[0];
+                popup_d828268a2fc645eb87c38a7574829250.setContent(html_63820a8c1e304ac9a5ddbd2ab0c4ad45);
+            
+
+            circle_marker_5ba8d347e9284e4fb169c217b8fda497.bindPopup(popup_d828268a2fc645eb87c38a7574829250)
+            ;
+
+            
+        
+    
+            var circle_marker_cb13e94553cc40028b4bf4f859063a69 = L.circleMarker(
+                [40.62599, -73.91830999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_6a5d537837de44a29e22ced1e4df889d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_49188be757c142a780515d280c957bd6 = $('<div id="html_49188be757c142a780515d280c957bd6" style="width: 100.0%; height: 100.0%;">2102 Ralph Ave, Brooklyn, NY 11234</div>')[0];
+                popup_6a5d537837de44a29e22ced1e4df889d.setContent(html_49188be757c142a780515d280c957bd6);
+            
+
+            circle_marker_cb13e94553cc40028b4bf4f859063a69.bindPopup(popup_6a5d537837de44a29e22ced1e4df889d)
+            ;
+
+            
+        
+    
+            var circle_marker_5de59a96f21b463892b515db26043a0e = L.circleMarker(
+                [40.58571, -73.9485],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_507cbdde60fd4d3f829aae68c87be641 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0d606e68bab04274a1d6d9caedd38166 = $('<div id="html_0d606e68bab04274a1d6d9caedd38166" style="width: 100.0%; height: 100.0%;">3090 Ocean Ave, Brooklyn, NY 11235</div>')[0];
+                popup_507cbdde60fd4d3f829aae68c87be641.setContent(html_0d606e68bab04274a1d6d9caedd38166);
+            
+
+            circle_marker_5de59a96f21b463892b515db26043a0e.bindPopup(popup_507cbdde60fd4d3f829aae68c87be641)
+            ;
+
+            
+        
+    
+            var circle_marker_a7072db6a47946c0a38f18a6ca161f25 = L.circleMarker(
+                [40.60236, -73.99492],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_44daf739a84c4c1d887a7c0b794e0ab1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86613b72fb2d4dfda94460a6cda562d0 = $('<div id="html_86613b72fb2d4dfda94460a6cda562d0" style="width: 100.0%; height: 100.0%;">2150 86th St, Brooklyn, NY 11214</div>')[0];
+                popup_44daf739a84c4c1d887a7c0b794e0ab1.setContent(html_86613b72fb2d4dfda94460a6cda562d0);
+            
+
+            circle_marker_a7072db6a47946c0a38f18a6ca161f25.bindPopup(popup_44daf739a84c4c1d887a7c0b794e0ab1)
+            ;
+
+            
+        
+    
+            var circle_marker_c5caafc527ec44b4b7dcbed68d73c8d0 = L.circleMarker(
+                [40.61915, -74.00864],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_1f2bc4a5c7a74b9096c26b5b5a8dd87a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ae96bf98ca54aadab14aec042942e2e = $('<div id="html_7ae96bf98ca54aadab14aec042942e2e" style="width: 100.0%; height: 100.0%;">74-01 13th Ave, Brooklyn, NY 11228</div>')[0];
+                popup_1f2bc4a5c7a74b9096c26b5b5a8dd87a.setContent(html_7ae96bf98ca54aadab14aec042942e2e);
+            
+
+            circle_marker_c5caafc527ec44b4b7dcbed68d73c8d0.bindPopup(popup_1f2bc4a5c7a74b9096c26b5b5a8dd87a)
+            ;
+
+            
+        
+    
+            var circle_marker_115e1d0c2043462cad40c9302e05428b = L.circleMarker(
+                [40.71001, -73.96185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_a6464262b9fb4635ad814806df3023ce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_efe239f67d4b46bd992a7d9a70db60ca = $('<div id="html_efe239f67d4b46bd992a7d9a70db60ca" style="width: 100.0%; height: 100.0%;">185 Broadway, Brooklyn, NY 11211</div>')[0];
+                popup_a6464262b9fb4635ad814806df3023ce.setContent(html_efe239f67d4b46bd992a7d9a70db60ca);
+            
+
+            circle_marker_115e1d0c2043462cad40c9302e05428b.bindPopup(popup_a6464262b9fb4635ad814806df3023ce)
+            ;
+
+            
+        
+    
+            var circle_marker_c5a841adddbb456d92dcedea919b0e07 = L.circleMarker(
+                [40.727962, -73.953311],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_98812bc5b3904dbc8e1cfaafef6cc798 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2e6160e9531543f58d73063f6c62b6ca = $('<div id="html_2e6160e9531543f58d73063f6c62b6ca" style="width: 100.0%; height: 100.0%;">807 Manhattan Ave, Brooklyn, NY 11222</div>')[0];
+                popup_98812bc5b3904dbc8e1cfaafef6cc798.setContent(html_2e6160e9531543f58d73063f6c62b6ca);
+            
+
+            circle_marker_c5a841adddbb456d92dcedea919b0e07.bindPopup(popup_98812bc5b3904dbc8e1cfaafef6cc798)
+            ;
+
+            
+        
+    
+            var circle_marker_211c8479b99c4081b2388e05834222be = L.circleMarker(
+                [40.618513, -73.990569],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_cd4f777207bd4e64a739fbc9760e6a20 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_111078cd5d4c4d9da02dcc62e11954b5 = $('<div id="html_111078cd5d4c4d9da02dcc62e11954b5" style="width: 100.0%; height: 100.0%;">6521 18th Ave, Brooklyn, NY 11204</div>')[0];
+                popup_cd4f777207bd4e64a739fbc9760e6a20.setContent(html_111078cd5d4c4d9da02dcc62e11954b5);
+            
+
+            circle_marker_211c8479b99c4081b2388e05834222be.bindPopup(popup_cd4f777207bd4e64a739fbc9760e6a20)
+            ;
+
+            
+        
+    
+            var circle_marker_68b9d225cf2d4bc98579af772c6f6413 = L.circleMarker(
+                [40.816383, -73.917806],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_261c87f4504d46e684a13656ebb08c6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_aa398c23b3324d1d805c63b7727a6549 = $('<div id="html_aa398c23b3324d1d805c63b7727a6549" style="width: 100.0%; height: 100.0%;">557 Melrose Ave, Bronx, NY 10455</div>')[0];
+                popup_261c87f4504d46e684a13656ebb08c6d.setContent(html_aa398c23b3324d1d805c63b7727a6549);
+            
+
+            circle_marker_68b9d225cf2d4bc98579af772c6f6413.bindPopup(popup_261c87f4504d46e684a13656ebb08c6d)
+            ;
+
+            
+        
+    
+            var circle_marker_babc013bb3dc4efd8b934a4971158a68 = L.circleMarker(
+                [40.862558, -73.89791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_c96aeadebc0c4ee59574f88501d9d689 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e3c2ba0153841fda05e7e004a890a14 = $('<div id="html_1e3c2ba0153841fda05e7e004a890a14" style="width: 100.0%; height: 100.0%;">151 E Fordham Rd, Bronx, NY 10468</div>')[0];
+                popup_c96aeadebc0c4ee59574f88501d9d689.setContent(html_1e3c2ba0153841fda05e7e004a890a14);
+            
+
+            circle_marker_babc013bb3dc4efd8b934a4971158a68.bindPopup(popup_c96aeadebc0c4ee59574f88501d9d689)
+            ;
+
+            
+        
+    
+            var circle_marker_5b5f4cf9326a47d3bf5e902046ad7ad1 = L.circleMarker(
+                [40.859840000000005, -73.888295],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_a98752b295544e0490f5af0863888e5e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_912b939f90a5404caa0dbd5fca52b388 = $('<div id="html_912b939f90a5404caa0dbd5fca52b388" style="width: 100.0%; height: 100.0%;">500 E Fordham Rd, Bronx, NY 10458</div>')[0];
+                popup_a98752b295544e0490f5af0863888e5e.setContent(html_912b939f90a5404caa0dbd5fca52b388);
+            
+
+            circle_marker_5b5f4cf9326a47d3bf5e902046ad7ad1.bindPopup(popup_a98752b295544e0490f5af0863888e5e)
+            ;
+
+            
+        
+    
+            var circle_marker_569f96753e3f4200b60bb60046070741 = L.circleMarker(
+                [40.859840000000005, -73.888295],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_f219661860224a9fb70929ffc65d347b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5007b228a7944a26a33ce572af8c1895 = $('<div id="html_5007b228a7944a26a33ce572af8c1895" style="width: 100.0%; height: 100.0%;">1941 Williamsbridge Rd, Bronx, NY 10461</div>')[0];
+                popup_f219661860224a9fb70929ffc65d347b.setContent(html_5007b228a7944a26a33ce572af8c1895);
+            
+
+            circle_marker_569f96753e3f4200b60bb60046070741.bindPopup(popup_f219661860224a9fb70929ffc65d347b)
+            ;
+
+            
+        
+    
+            var circle_marker_da553a5811bc4e13b3aacc8cf5d0999b = L.circleMarker(
+                [40.859840000000005, -73.888295],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3db7e4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
+            
+    
+            var popup_f92775fc968c4dc0985f565ccb69e23e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_09e5b561c3c2410b9426adb551b6e5c7 = $('<div id="html_09e5b561c3c2410b9426adb551b6e5c7" style="width: 100.0%; height: 100.0%;">386 Forest Ave, Staten Island, NY 10301</div>')[0];
+                popup_f92775fc968c4dc0985f565ccb69e23e.setContent(html_09e5b561c3c2410b9426adb551b6e5c7);
+            
+
+            circle_marker_da553a5811bc4e13b3aacc8cf5d0999b.bindPopup(popup_f92775fc968c4dc0985f565ccb69e23e)
+            ;
+
+            
+        
+    
+            var heat_map_7021ec1ea8ca407ea071c585f984180d = L.heatLayer(
+                [[40.67974, -73.99732], [40.71443, -74.00646], [40.74165, -74.00074000000001], [40.78074, -73.80301999999999], [40.84957, -73.93486], [40.71765, -73.81703], [40.75178, -73.88469], [40.64545, -73.90217], [40.78453, -73.94729], [40.77949, -73.95555999999999], [40.7155, -74.00958], [40.67735, -73.41773], [40.71839, -73.9952], [40.7281, -73.99965], [42.38089, -76.87526], [40.73168, -73.99406], [42.13765, -77.04451999999999], [40.72981, -73.9872], [40.73297, -73.98697], [40.73717, -73.98961], [40.74306, -73.99377], [40.74678, -74.00142], [40.74566, -73.9826], [40.74508, -73.97613], [40.75099, -73.99061], [40.75033, -73.98371], [42.05434, -76.82011], [40.74977, -73.97319], [42.13321, -77.0362], [40.75662, -73.96976], [42.05291, -76.82083], [40.76623, -73.9864], [40.76439, -73.97678], [40.761540000000004, -73.96621999999999], [40.79984, -73.34198], [40.76619, -73.9607], [40.76773, -73.96248], [40.77867, -73.98118000000001], [40.77267, -73.9581], [40.7731, -73.95487], [40.64687, -73.91799], [42.90005, -78.78621], [40.73375, -73.98059], [40.75178, -73.88469], [40.74334, -73.86334000000001], [40.702459999999995, -73.81594], [40.72967, -73.8609], [40.7158, -73.74656], [40.68714, -73.82185], [40.69146, -73.98835], [40.671021, -73.957458], [40.67102, -73.95746], [40.6449, -74.0102], [40.62599, -73.91830999999999], [40.58571, -73.9485], [40.60236, -73.99492], [40.61915, -74.00864], [40.71001, -73.96185], [40.727962, -73.953311], [40.618513, -73.990569], [40.816383, -73.917806], [40.862558, -73.89791], [40.859840000000005, -73.888295], [40.859840000000005, -73.888295], [40.859840000000005, -73.888295]],
+                {
+                    minOpacity: 0.5,
+                    maxZoom: 18,
+                    max: 1.0,
+                    radius: 15,
+                    blur: 15,
+                    gradient: null
+                    })
+                .addTo(map_4ff760f5e4b9409f9445925a988fe34a);
         
 </script>
